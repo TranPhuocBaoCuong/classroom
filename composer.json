@@ -1,0 +1,6 @@
+{
+    "name": "cuong/htdocs",
+    "require": {
+        "phpmailer/phpmailer": "^6.2"
+    }
+}

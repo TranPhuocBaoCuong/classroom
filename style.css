@@ -1,0 +1,58 @@
+.text-banner {
+    color: #ffff;
+    position: absolute;
+    top:85px;
+    left: 300px;
+}
+
+#img-file-name {
+    width: 100px;
+}
+
+.item .item-info{
+    text-align: center;
+    height: 10%;
+    width: 144px;
+    font-size: 14px;
+    margin: auto;
+}
+.item .item-info .item-name{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.item{
+    width: 300px;
+    text-align: center;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 25px 10px 5px;
+    border-radius: 7px;
+    margin-left: 10px;
+    height: auto;
+}
+
+.item-contain{
+    width: 100%;
+    height: 800px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-left: 20px;
+}
+
+div.item-header{
+    font-size: 99px;
+    margin-left: 100px;
+    position: sticky;
+    background-color: #72B885;
+    top: 0;
+}
+
+.hide-detail{
+    display: none;
+}
+
+
