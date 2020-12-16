@@ -5,10 +5,10 @@
 
     require 'vendor/autoload.php';
 
-	define('HOST', 'ec2-54-236-122-55.compute-1.amazonaws.com:5432');
-	define('USER', 'cidvptkbnmvedo');
-	define('PASS', '632bba7558cd9be5a09a13051dd35e395ba5a3eadaaa8225806b86205809324b');
-	define('DB', 'dar220fs6vptov');
+	define('HOST', 'ec2-52-6-75-198.compute-1.amazonaws.com');
+	define('USER', 'bnqwzptbqopsqc');
+	define('PASS', '80ccc4247f51051024a5581f664420728b7840f7bf43c681546b1ba511f6f0b6');
+	define('DB', 'dc0cbudmq0b3am');
 
 	function open_database() {
 		$conn = new mysqli(HOST, USER, PASS, DB);
