@@ -5,7 +5,7 @@
 
     require 'vendor/autoload.php';
 
-	define('HOST', 'ec2-52-6-75-198.compute-1.amazonaws.com');
+	define('HOST', 'ec2-52-6-75-198.compute-1.amazonaws.com:5432');
 	define('USER', 'bnqwzptbqopsqc');
 	define('PASS', '80ccc4247f51051024a5581f664420728b7840f7bf43c681546b1ba511f6f0b6');
 	define('DB', 'dc0cbudmq0b3am');
